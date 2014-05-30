@@ -4,10 +4,18 @@
 
 	<groupId>org.liquibase.ext</groupId>
 	<artifactId>liquibase-hibernate4.2</artifactId>
-	<version>3.4-SNAPSHOT</version>
+	<version>3.3-touk1</version>
+    
+    <parent>
+        <groupId>pl.touk</groupId>
+        <artifactId>touk-superpom</artifactId>
+        <version>3.0.0</version>
+    </parent>
 
 	<name>Liquibase Hibernate Integration</name>
-	<description>Liquibase extension for hibernate integration including generating changesets based on changed
+	<description>Wersja 3.3 z zaaplikowanym pull requestem #51 (NPE fix).
+        
+        Liquibase extension for hibernate integration including generating changesets based on changed
         hibernate mapping files. Supports Hibernate 4.0 through 4.2.
     </description>
 	<url>https://github.com/liquibase/liquibase-hibernate/wiki</url>
