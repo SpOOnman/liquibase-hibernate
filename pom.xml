@@ -250,7 +250,7 @@
 		</pluginManagement>
 	</build>
 
-    <distributionManagement>
+    <!--<distributionManagement>
 		<repository>
 			<id>touk.nexus.release</id>
 			<name>TouK Virtual Repository</name>
@@ -261,7 +261,7 @@
 			<name>TouK Virtual Repository</name>
 	 		<url>http://nexus.touk.pl/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 
 	<profiles>
 		<profile>
